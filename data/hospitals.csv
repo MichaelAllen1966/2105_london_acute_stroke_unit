@@ -1,24 +1,23 @@
-Unit,Postcode,Use,los_mean,Capacity
-Barnet General SU,EN53DJ,1,27.3,9999
-Charing Cross SU,W68RF,1,40,9999
-Chelsea & Wminster SU,SW109NH,1,29.5,9999
-Croydon SU,CR77YE,1,39.6,9999
-Hillingdon SU,UB83NN,1,33.7,9999
-Homerton SU,E96SR,1,54.7,9999
-King’s College SU,SE59RS,1,35.1,9999
-Kingston SU,KT27QB,1,30.4,9999
-Lewisham SU,SE136LH,1,35.7,9999
-N Middlesex SU,N181QX,1,30,9999
-Newham General SU,E138SL,1,21.3,9999
-Northwick Park SU,HA13UJ,1,21.2,9999
-Princess Royal SU,BR68ND,1,25.6,9999
-Queens Romford SU,RM70AG,1,19.4,9999
-Royal Free SU,NW32QG,1,19.2,9999
-Royal London SU,E11FR,1,20.6,9999
-St George’s SU,SW170QT,1,38.9,9999
-St Helier SU,SM51AA,0,42.1,9999
-St Thomas SU,SE17EH,1,37,9999
-University College SU,NW12BU,1,32.8,9999
-W Middlesex SU,TW76AF,1,31.9,9999
-Whipps Cross SU,E111NR,1,21.5,9999
-Epsom SU,KT187EG,1,21.6,9999
+Unit,Postcode,Use,los_mean,los_mean_actual,Capacity
+Barnet General SU,EN53DJ,1,28,27.3,9999
+Charing Cross SU,W68RF,1,28,40,9999
+Chelsea & Wminster SU,SW109NH,1,28,29.5,9999
+Croydon SU,CR77YE,1,28,39.6,9999
+Hillingdon SU,UB83NN,1,28,33.7,9999
+Homerton SU,E96SR,1,28,54.7,9999
+King’s College SU,SE59RS,1,28,35.1,9999
+Kingston SU,KT27QB,1,28,30.4,9999
+Lewisham SU,SE136LH,1,28,35.7,9999
+N Middlesex SU,N181QX,1,28,30,9999
+Newham General SU,E138SL,1,28,21.3,9999
+Northwick Park SU,HA13UJ,1,28,21.2,9999
+Princess Royal SU,BR68ND,1,28,25.6,9999
+Queens Romford SU,RM70AG,1,28,19.4,9999
+Royal Free SU,NW32QG,1,28,19.2,9999
+Royal London SU,E11FR,1,28,20.6,9999
+St George’s SU,SW170QT,1,28,38.9,9999
+St Helier SU,SM51AA,1,28,42.1,9999
+St Thomas SU,SE17EH,1,28,37,9999
+University College SU,NW12BU,1,28,32.8,9999
+W Middlesex SU,TW76AF,1,28,31.9,9999
+Whipps Cross SU,E111NR,1,28,21.5,9999

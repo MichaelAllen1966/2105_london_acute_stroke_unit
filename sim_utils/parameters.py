@@ -28,7 +28,7 @@ class Scenario(object):
         self.scale_admissions = 1.0
 
         # Patient flow
-        self.require_asu = 0.55
+        self.require_asu = 0.57
         self.esd_use = 0.
         self.esd_asu_los_reduction = 7.0
         self.los_cv = 0.3

@@ -3,7 +3,6 @@ min,Barnet General SU,0.0
 min,Charing Cross SU,0.0
 min,Chelsea & Wminster SU,0.0
 min,Croydon SU,0.0
-min,Epsom SU,0.0
 min,Hillingdon SU,0.0
 min,Homerton SU,0.0
 min,Kingston SU,0.0
@@ -26,7 +25,6 @@ mean,Barnet General SU,0.0
 mean,Charing Cross SU,0.0
 mean,Chelsea & Wminster SU,0.0
 mean,Croydon SU,0.0
-mean,Epsom SU,0.0
 mean,Hillingdon SU,0.0
 mean,Homerton SU,0.0
 mean,Kingston SU,0.0
@@ -49,7 +47,6 @@ median,Barnet General SU,0.0
 median,Charing Cross SU,0.0
 median,Chelsea & Wminster SU,0.0
 median,Croydon SU,0.0
-median,Epsom SU,0.0
 median,Hillingdon SU,0.0
 median,Homerton SU,0.0
 median,Kingston SU,0.0
@@ -72,7 +69,6 @@ max,Barnet General SU,0.0
 max,Charing Cross SU,0.0
 max,Chelsea & Wminster SU,0.0
 max,Croydon SU,0.0
-max,Epsom SU,0.0
 max,Hillingdon SU,0.0
 max,Homerton SU,0.0
 max,Kingston SU,0.0
@@ -95,7 +91,6 @@ percentile_95,Barnet General SU,0.0
 percentile_95,Charing Cross SU,0.0
 percentile_95,Chelsea & Wminster SU,0.0
 percentile_95,Croydon SU,0.0
-percentile_95,Epsom SU,0.0
 percentile_95,Hillingdon SU,0.0
 percentile_95,Homerton SU,0.0
 percentile_95,Kingston SU,0.0

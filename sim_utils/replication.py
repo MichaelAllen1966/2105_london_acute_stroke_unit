@@ -156,15 +156,17 @@ class Replicator:
         print('------------------')
         print(self.summary_unit_admissions_pivot['mean'])
 
-        # Unit occupancy
-        print('\nUnit occupancy')
+        # Unit mean occupancy
+        print('\nUnit occupancy (mean)')
         print('-----------------')
         print(self.occupancy_pivot.loc['mean'])
 
-        print('\nUnit occupancy(%)')
-        print('-----------------')
-        print(self.occupancy_percent_pivot.loc['mean'])
+        # Init 95th percentile occupancy
 
+        print('\nUnit occupancy (95th percentile)')
+        print('-----------------')
+        print(self.occupancy_pivot.loc['percentile_95'])
+              
     def run_scenarios(self):
         
         # Run all scenarios
