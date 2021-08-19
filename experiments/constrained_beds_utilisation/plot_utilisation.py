@@ -65,8 +65,8 @@ ax4.legend()
 ax4.grid()
 ax4.set_title('Average number of patients waiting for ASU bed')
 
-plt.savefig('utilisation.png', dpi=300)
 plt.tight_layout(pad=2)
+plt.savefig('utilisation.png', dpi=300)
 plt.show()
 
 
