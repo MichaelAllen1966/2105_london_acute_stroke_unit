@@ -45,7 +45,8 @@ class Model(object):
             'current_asu_patients_all': 0,
             'current_asu_patients_allocated': 0,
             'current_asu_patients_unallocated': 0,
-            'current_asu_patients_displaced': 0
+            'current_asu_patients_displaced': 0,
+            'patient_waiting_time': []
         }
 
     def assign_asu_los(self, patient):
@@ -67,19 +68,42 @@ class Model(object):
         self.occupancy_audit = pd.DataFrame(
             self.audit.audit_unit_occupancy, columns=self.data.units_name)
 
-        self.admissions_by_unit = pd.Series(self.unit_admissions, index=self.data.units_name)
+        self.admissions_by_unit = pd.Series(
+            self.unit_admissions, index=self.data.units_name)
 
         self.occupancy_percent_audit = pd.DataFrame(
-            self.audit.audit_unit_occupancy_percent, columns=self.data.units_name)
+            self.audit.audit_unit_occupancy_percent, 
+            columns=self.data.units_name)
 
         self.unit_occupancy_displaced_preferred_audit = pd.DataFrame(
-            self.audit.audit_unit_occupancy_displaced_preferred, columns=self.data.units_name)
+            self.audit.audit_unit_occupancy_displaced_preferred,
+            columns=self.data.units_name)
 
         self.unit_occupancy_displaced_destination_audit = pd.DataFrame(
-            self.audit.audit_unit_occupancy_displaced_destination, columns=self.data.units_name)
+            self.audit.audit_unit_occupancy_displaced_destination,
+            columns=self.data.units_name)
 
         self.unit_occupancy_waiting_preferred_audit = pd.DataFrame(
-            self.audit.audit_unit_occupancy_waiting_preferred, columns=self.data.units_name)
+            self.audit.audit_unit_occupancy_waiting_preferred,
+            columns=self.data.units_name)
+        
+        if len(self.tracker['patient_waiting_time']) > 0:
+            self.average_wait_time_all = (np.sum(
+                self.tracker['patient_waiting_time']) /
+                self.tracker['total_patients_asu'])
+        else:
+            self.average_wait_time_all = 0
+        
+        if len(self.tracker['patient_waiting_time']) > 0:
+                self.average_wait_time_waiters = np.mean(
+               self.tracker['patient_waiting_time'])
+        else:
+            self.average_wait_time_waiters = 0
+        
+        if len(self.tracker['patient_waiting_time']) > 0:
+            self.maximum_wait_time = np.max(
+                self.tracker['patient_waiting_time'])   
+        else: self.maximum_wait_time = 0        
 
     def generate_patient_arrival(self):
         """SimPy process. Generate patients. Assign unit and length of stay.
@@ -171,20 +195,25 @@ class Model(object):
                             # Bed available in alternative unit
                             self.unit_occupancy[unit] += 1
                             patient.assigned_asu_index = unit
-                            patient.assigned_asu_postcode = self.data.units_postcode[unit]
-                            patient.assigned_asu_name = self.data.units_name[unit]
+                            patient.assigned_asu_postcode = \
+                                self.data.units_postcode[unit]
+                            patient.assigned_asu_name = \
+                                self.data.units_name[unit]
                             patient.waiting_for_asu = False
                             patient.displaced = True
                             unallocated = False
-                            self.unit_occupancy_displaced_preferred[patient.pref_unit_index] += 1
+                            self.unit_occupancy_displaced_preferred[
+                                patient.pref_unit_index] += 1
                             self.unit_occupancy_displaced_destination[unit] += 1
                             if self.env.now >= self.params.sim_warmup:
                                 self.tracker['total_patients_displaced'] += 1
                                 self.unit_admissions[unit] += 1
+                            # End loop
+                            break
 
-                # Wait for 1 day before searching again (if necessary)
+                # Wait for 0.25 day before searching again (if necessary)
                 if unallocated:
-                    yield self.env.timeout(1)
+                    yield self.env.timeout(0.25)
 
             # Unit allocated; adjust trackers and patient values
             self.tracker['current_asu_patients_allocated'] += 1
@@ -193,11 +222,15 @@ class Model(object):
                 self.tracker['current_asu_patients_displaced'] += 1
             self.unit_occupancy_waiting_preferred[patient.pref_unit_index] -= 1
             patient.time_asu_allocated = self.env.now
-            patient.time_waiting_for_asu = patient.time_asu_allocated - patient.time_in
-            patient.waited_for_asu = True if patient.time_waiting_for_asu > 0 else False
+            patient.time_waiting_for_asu = \
+                patient.time_asu_allocated - patient.time_in
+            patient.waited_for_asu = \
+                True if patient.time_waiting_for_asu > 0 else False
             if patient.waited_for_asu:
                 if self.env.now >= self.params.sim_warmup:
                     self.tracker['total_patients_waited'] += 1
+                    self.tracker['patient_waiting_time'].append(
+                        patient.time_waiting_for_asu)
 
             # Stay in ASU
             self.assign_asu_los(patient)
@@ -209,8 +242,10 @@ class Model(object):
             self.unit_occupancy[patient.assigned_asu_index] -= 1
 
             if patient.displaced:
-                self.unit_occupancy_displaced_preferred[patient.pref_unit_index] -= 1
-                self.unit_occupancy_displaced_destination[patient.assigned_asu_index] -= 1
+                self.unit_occupancy_displaced_preferred[
+                patient.pref_unit_index] -= 1
+                self.unit_occupancy_displaced_destination[
+                patient.assigned_asu_index] -= 1
                 self.tracker['current_asu_patients_displaced'] -= 1
 
         # TODO Add ESD?

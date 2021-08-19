@@ -1,5 +1,3 @@
-import matplotlib.pyplot as plt
-import matplotlib.ticker as ticker
 import numpy as np
 import pandas as pd
 from joblib import Parallel, delayed
@@ -8,17 +6,19 @@ from sim_utils.model import Model
 
 class Replicator:
     """
-    run_scenarios:
-        For each scenario:
-            -> run_trial (creates 'trial_output')
-                -> single run (creates dictionary of results for each single run)
-            -> unpack_trial_results (collates run results for each result type)
-        pivot_results
+    Replication of trials for multiple scenarios.
+    Uses parallel CPU processing from joblib
 
+    For each scenario:
+        -> run_trial (creates 'trial_output')
+            -> single run (creates dictionary of results for each  run)
+        -> unpack_trial_results (collates run results for each result type)
+        pivot_results
     """
 
     def __init__(self, scenarios, replications):
-        """Constructor class for Replicator
+        """
+        Constructor class for Simulation Replicator
         """
 
         self.replications = replications
@@ -32,6 +32,7 @@ class Replicator:
         self.summary_unit_occupancy_displaced_destination = pd.DataFrame()
         self.summary_unit_occupancy_preferred_waiting = pd.DataFrame()
         self.summary_unit_admissions = pd.DataFrame()
+        self.summary_average_wait_times_waiting = pd.DataFrame()
 
         # Set up pivot tables
         self.global_pivot = None
@@ -40,6 +41,7 @@ class Replicator:
         self.occupancy_displaced_preferred_pivot = None
         self.occupancy_displaced_destination_preferred_pivot = None
         self.occupancy_waiting_preferred_pivot = None
+        self.average_wait_times_waiting = None
 
         # Set up variables for table keys
         self.global_keys = None
@@ -79,6 +81,7 @@ class Replicator:
 
         pivot.rename(columns={'amin': 'min', 'amax': 'max'}, inplace=True)
         self.occupancy_pivot = pivot.T
+        
 
         # Occupancy percent summary (summarises across all runs)
 
@@ -137,7 +140,29 @@ class Replicator:
         self.occupancy_waiting_preferred_pivot = pivot.T
 
         # Unit admissions
-        self.summary_unit_admissions_pivot = self.summary_unit_admissions.describe().T
+  
+        df = self.summary_unit_admissions.copy()
+        df['result_type'] = df.index
+
+        pivot = df.pivot_table(
+            index = ['name'],
+            values = self.occupancy_keys,
+            aggfunc = [np.min, np.mean, np.median, np.max, percentile_95],
+            margins = False)
+
+        pivot.rename(columns={'amin': 'min', 'amax': 'max'}, inplace=True)
+        self.unit_admissions_pivot = pivot.T            
+            
+        # Waiting times
+      
+        pivot = self.summary_average_wait_times_waiting.pivot_table(
+            index = ['name'],
+            values =[0],
+            aggfunc = np.mean,
+            margins = False)
+                
+        self.average_wait_times_waiting_pivot = pivot
+        
 
     def print_results(self):
 
@@ -150,11 +175,21 @@ class Replicator:
         fields = ['total_patients', 'total_patients_asu', 'total_patients_displaced',
                   'total_patients_waited']
         print(self.global_pivot.loc['max'].loc[fields])
+        
+        print('\nAverage patients waiting for ASU')
+        print('--------------------------------')
+        print(self.global_pivot.loc['mean'].loc['asu_patients_unallocated'])
+        
+        
+        print('\nAverage delay (days) for patients who had to wait')
+        print('---------------------------------------------------')
+        print(self.average_wait_times_waiting_pivot[0].round(1))
+        
 
         # Unit admissions
         print('\nUnit admissions')
         print('------------------')
-        print(self.summary_unit_admissions_pivot['mean'])
+        print(self.unit_admissions_pivot.loc['mean'])
 
         # Unit mean occupancy
         print('\nUnit occupancy (mean)')
@@ -223,7 +258,7 @@ class Replicator:
         self.occupancy_waiting_preferred_pivot.to_csv('./output/waiting_preferred_pivot.csv')
         self.summary_unit_occupancy_preferred_waiting.to_csv('./output/waiting_preferred_trial.csv')
 
-        self.summary_unit_admissions_pivot.to_csv('./output/unit_admissions.csv')
+        self.unit_admissions_pivot.to_csv('./output/unit_admissions.csv')
     
     
     def single_run(self, scenario, i=0):
@@ -239,7 +274,10 @@ class Replicator:
             'occupancy_displaced_preferred': model.unit_occupancy_displaced_preferred_audit,
             'occupancy_displaced_destination': model.unit_occupancy_displaced_destination_audit,
             'occupancy_waiting_preferred': model.unit_occupancy_waiting_preferred_audit,
-            'unit_admissions': model.admissions_by_unit
+            'unit_admissions': model.admissions_by_unit,
+            'average_wait_time_all': model.average_wait_time_all,
+            'average_wait_time_waiters': model.average_wait_time_waiters,
+            'maximum_wait_time': model.maximum_wait_time
                    }
 
         return results
@@ -298,5 +336,15 @@ class Replicator:
             result_item = results[run]['unit_admissions']
             if run == 0:
                 self.unit_admissions_keys = list(result_item.index)
+            result_item['run'] = run
+            result_item['name'] = name
             self.summary_unit_admissions = self.summary_unit_admissions.append(
+                result_item, ignore_index=True)
+            
+            # Waiting time (waiters)
+            result_item = pd.Series(results[run]['average_wait_time_waiters'])
+            result_item['run'] = run
+            result_item['name'] = name
+            self.summary_average_wait_times_waiting = \
+                self.summary_average_wait_times_waiting.append(
                 result_item, ignore_index=True)

@@ -12,11 +12,15 @@ scenarios = {}
 
 # Name & define all scenarios 
 # Set parameters that differ from defaults in sim_utils/parameters_[date].py
-# Note: Resource shifts are in hours and fractions of hours. e.g. 14.5 is 2.30pm
+
 
 # Baseline sceanrio (model defaults)
 
-scenarios['test'] = Scenario()
+# Baseline sceanrio (model defaults)
+scenarios['constrained_beds'] = Scenario(
+    allow_non_preferred_asu = False)
+scenarios['constrained_beds_allow_redirect'] = Scenario(
+    allow_non_preferred_asu = True)
 # Set up and call replicator
 replications = 10
 replications = Replicator(scenarios, replications)
