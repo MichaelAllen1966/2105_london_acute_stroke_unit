@@ -1,111 +1,111 @@
-,,constrained_beds,constrained_beds_allow_any_redirect,constrained_beds_allow_region_redirect
-min,Barnet General SU,147.0,139.0,141.0
-min,Charing Cross SU,299.0,315.0,314.0
-min,Chelsea & Wminster SU,167.0,163.0,163.0
-min,Croydon SU,238.0,238.0,236.0
-min,Hillingdon SU,254.0,259.0,263.0
-min,Homerton SU,148.0,162.0,159.0
-min,Kingston SU,169.0,162.0,158.0
-min,King’s College SU,155.0,165.0,164.0
-min,Lewisham SU,505.0,506.0,511.0
-min,N Middlesex SU,283.0,326.0,309.0
-min,Newham General SU,157.0,164.0,149.0
-min,Northwick Park SU,342.0,345.0,346.0
-min,Princess Royal SU,236.0,254.0,249.0
-min,Queens Romford SU,378.0,380.0,380.0
-min,Royal Free SU,266.0,271.0,275.0
-min,Royal London SU,80.0,105.0,99.0
-min,St George’s SU,141.0,139.0,143.0
-min,St Helier SU,175.0,180.0,186.0
-min,St Thomas SU,205.0,202.0,202.0
-min,University College SU,153.0,158.0,157.0
-min,W Middlesex SU,170.0,185.0,185.0
-min,Whipps Cross SU,188.0,198.0,194.0
-mean,Barnet General SU,164.7,151.83333333333334,154.2
-mean,Charing Cross SU,336.1,333.96666666666664,340.43333333333334
-mean,Chelsea & Wminster SU,188.43333333333334,177.63333333333333,180.1
-mean,Croydon SU,263.7,256.53333333333336,262.53333333333336
-mean,Hillingdon SU,282.8666666666667,279.0,285.73333333333335
-mean,Homerton SU,166.46666666666667,176.73333333333332,173.1
-mean,Kingston SU,195.4,183.1,185.96666666666667
-mean,King’s College SU,183.13333333333333,182.26666666666668,185.13333333333333
-mean,Lewisham SU,538.7333333333333,534.1333333333333,539.6
-mean,N Middlesex SU,321.73333333333335,343.9,336.43333333333334
-mean,Newham General SU,176.23333333333332,175.26666666666668,172.2
-mean,Northwick Park SU,376.43333333333334,379.1,376.8
-mean,Princess Royal SU,275.73333333333335,273.6333333333333,271.76666666666665
-mean,Queens Romford SU,409.73333333333335,404.46666666666664,403.6333333333333
-mean,Royal Free SU,294.3,289.6,291.5
-mean,Royal London SU,110.16666666666667,116.5,113.46666666666667
-mean,St George’s SU,158.7,158.5,160.76666666666668
-mean,St Helier SU,202.53333333333333,199.63333333333333,201.06666666666666
-mean,St Thomas SU,227.56666666666666,223.56666666666666,219.5
-mean,University College SU,172.56666666666666,172.23333333333332,171.6
-mean,W Middlesex SU,203.6,203.06666666666666,202.43333333333334
-mean,Whipps Cross SU,212.96666666666667,215.06666666666666,211.6
-median,Barnet General SU,164.5,151.5,154.0
-median,Charing Cross SU,334.5,332.5,339.5
-median,Chelsea & Wminster SU,189.5,178.5,182.5
-median,Croydon SU,261.5,256.5,262.0
-median,Hillingdon SU,282.5,279.5,287.0
-median,Homerton SU,169.0,176.0,174.0
-median,Kingston SU,195.0,182.0,187.0
-median,King’s College SU,184.0,182.0,183.0
-median,Lewisham SU,541.0,535.0,539.5
-median,N Middlesex SU,323.0,344.5,337.0
-median,Newham General SU,174.5,175.0,172.0
-median,Northwick Park SU,373.5,380.0,380.0
-median,Princess Royal SU,274.5,273.5,273.0
-median,Queens Romford SU,410.0,407.0,405.5
-median,Royal Free SU,294.5,289.5,293.0
-median,Royal London SU,110.0,116.5,112.0
-median,St George’s SU,159.5,159.0,159.5
-median,St Helier SU,204.5,200.0,200.0
-median,St Thomas SU,227.0,223.5,219.0
-median,University College SU,172.5,172.0,171.0
-median,W Middlesex SU,205.5,203.5,203.5
-median,Whipps Cross SU,212.0,216.0,213.0
-max,Barnet General SU,187.0,163.0,166.0
-max,Charing Cross SU,365.0,362.0,370.0
-max,Chelsea & Wminster SU,204.0,191.0,195.0
-max,Croydon SU,304.0,273.0,294.0
-max,Hillingdon SU,320.0,299.0,304.0
-max,Homerton SU,182.0,190.0,187.0
-max,Kingston SU,220.0,200.0,201.0
-max,King’s College SU,217.0,195.0,203.0
-max,Lewisham SU,579.0,569.0,567.0
-max,N Middlesex SU,360.0,363.0,356.0
-max,Newham General SU,202.0,188.0,191.0
-max,Northwick Park SU,425.0,396.0,403.0
-max,Princess Royal SU,304.0,302.0,301.0
-max,Queens Romford SU,445.0,429.0,429.0
-max,Royal Free SU,330.0,310.0,304.0
-max,Royal London SU,128.0,126.0,128.0
-max,St George’s SU,181.0,175.0,187.0
-max,St Helier SU,225.0,212.0,217.0
-max,St Thomas SU,253.0,240.0,245.0
-max,University College SU,196.0,184.0,184.0
-max,W Middlesex SU,227.0,217.0,216.0
-max,Whipps Cross SU,237.0,232.0,225.0
-percentile_95,Barnet General SU,181.29999999999998,162.0,164.1
-percentile_95,Charing Cross SU,361.85,350.85,363.0
-percentile_95,Chelsea & Wminster SU,202.2,190.1,192.55
-percentile_95,Croydon SU,293.04999999999995,270.2,281.04999999999995
-percentile_95,Hillingdon SU,311.29999999999995,294.54999999999995,302.54999999999995
-percentile_95,Homerton SU,180.1,188.0,183.55
-percentile_95,Kingston SU,217.2,194.29999999999998,198.0
-percentile_95,King’s College SU,208.84999999999997,193.55,201.55
-percentile_95,Lewisham SU,571.95,553.1,558.55
-percentile_95,N Middlesex SU,352.5,360.65,353.75
-percentile_95,Newham General SU,196.2,185.55,188.55
-percentile_95,Northwick Park SU,404.55,393.54999999999995,399.29999999999995
-percentile_95,Princess Royal SU,299.0,292.65,290.09999999999997
-percentile_95,Queens Romford SU,437.29999999999995,421.85,424.65
-percentile_95,Royal Free SU,309.75,302.0,303.0
-percentile_95,Royal London SU,127.55,123.55,125.64999999999999
-percentile_95,St George’s SU,177.39999999999998,171.55,172.0
-percentile_95,St Helier SU,221.55,209.55,215.55
-percentile_95,St Thomas SU,248.64999999999998,238.64999999999998,233.0
-percentile_95,University College SU,184.1,182.55,182.55
-percentile_95,W Middlesex SU,224.2,215.55,213.1
-percentile_95,Whipps Cross SU,236.0,226.55,222.64999999999998
+,,constrained_beds,constrained_beds_allow_region_redirect
+min,Barnet General SU,132.0,123.0
+min,Charing Cross SU,304.0,291.0
+min,Chelsea & Wminster SU,162.0,157.0
+min,Croydon SU,245.0,228.0
+min,Hillingdon SU,259.0,239.0
+min,Homerton SU,132.0,133.0
+min,Kingston SU,168.0,159.0
+min,King’s College SU,151.0,149.0
+min,Lewisham SU,488.0,467.0
+min,N Middlesex SU,288.0,271.0
+min,Newham General SU,148.0,146.0
+min,Northwick Park SU,347.0,383.0
+min,Princess Royal SU,255.0,281.0
+min,Queens Romford SU,378.0,425.0
+min,Royal Free SU,251.0,245.0
+min,Royal London SU,93.0,89.0
+min,St George’s SU,123.0,180.0
+min,St Helier SU,179.0,161.0
+min,St Thomas SU,197.0,189.0
+min,University College SU,149.0,188.0
+min,W Middlesex SU,185.0,170.0
+min,Whipps Cross SU,170.0,168.0
+mean,Barnet General SU,160.13333333333333,140.76666666666668
+mean,Charing Cross SU,330.3333333333333,321.3333333333333
+mean,Chelsea & Wminster SU,192.56666666666666,169.53333333333333
+mean,Croydon SU,263.56666666666666,245.76666666666668
+mean,Hillingdon SU,281.6666666666667,264.3333333333333
+mean,Homerton SU,165.1,154.76666666666668
+mean,Kingston SU,193.56666666666666,171.7
+mean,King’s College SU,178.43333333333334,173.33333333333334
+mean,Lewisham SU,529.8,516.0333333333333
+mean,N Middlesex SU,324.7,307.1
+mean,Newham General SU,172.06666666666666,160.26666666666668
+mean,Northwick Park SU,378.96666666666664,435.26666666666665
+mean,Princess Royal SU,283.4,326.93333333333334
+mean,Queens Romford SU,411.56666666666666,479.73333333333335
+mean,Royal Free SU,290.8,270.2
+mean,Royal London SU,111.6,101.4
+mean,St George’s SU,155.03333333333333,214.23333333333332
+mean,St Helier SU,199.56666666666666,177.33333333333334
+mean,St Thomas SU,225.46666666666667,211.8
+mean,University College SU,175.36666666666667,227.33333333333334
+mean,W Middlesex SU,202.53333333333333,189.1
+mean,Whipps Cross SU,205.93333333333334,188.96666666666667
+median,Barnet General SU,158.5,141.0
+median,Charing Cross SU,330.0,324.0
+median,Chelsea & Wminster SU,194.5,170.5
+median,Croydon SU,260.0,244.0
+median,Hillingdon SU,280.0,266.5
+median,Homerton SU,165.5,155.5
+median,Kingston SU,194.0,170.5
+median,King’s College SU,178.5,174.0
+median,Lewisham SU,525.5,518.5
+median,N Middlesex SU,320.5,309.5
+median,Newham General SU,170.0,160.0
+median,Northwick Park SU,381.5,433.0
+median,Princess Royal SU,282.0,330.0
+median,Queens Romford SU,409.5,473.0
+median,Royal Free SU,295.0,270.0
+median,Royal London SU,112.0,101.0
+median,St George’s SU,160.0,213.0
+median,St Helier SU,199.5,179.5
+median,St Thomas SU,223.0,215.0
+median,University College SU,173.0,223.0
+median,W Middlesex SU,202.0,189.0
+median,Whipps Cross SU,206.0,189.0
+max,Barnet General SU,186.0,154.0
+max,Charing Cross SU,364.0,338.0
+max,Chelsea & Wminster SU,216.0,183.0
+max,Croydon SU,293.0,263.0
+max,Hillingdon SU,315.0,282.0
+max,Homerton SU,194.0,171.0
+max,Kingston SU,213.0,187.0
+max,King’s College SU,212.0,190.0
+max,Lewisham SU,587.0,549.0
+max,N Middlesex SU,361.0,335.0
+max,Newham General SU,204.0,174.0
+max,Northwick Park SU,429.0,497.0
+max,Princess Royal SU,337.0,369.0
+max,Queens Romford SU,453.0,536.0
+max,Royal Free SU,329.0,289.0
+max,Royal London SU,127.0,114.0
+max,St George’s SU,171.0,251.0
+max,St Helier SU,226.0,188.0
+max,St Thomas SU,246.0,225.0
+max,University College SU,198.0,276.0
+max,W Middlesex SU,237.0,207.0
+max,Whipps Cross SU,247.0,212.0
+percentile_95,Barnet General SU,183.1,149.1
+percentile_95,Charing Cross SU,354.25,337.0
+percentile_95,Chelsea & Wminster SU,212.55,178.55
+percentile_95,Croydon SU,286.54999999999995,257.65
+percentile_95,Hillingdon SU,307.84999999999997,280.65
+percentile_95,Homerton SU,185.55,165.55
+percentile_95,Kingston SU,211.1,185.64999999999998
+percentile_95,King’s College SU,196.49999999999997,187.55
+percentile_95,Lewisham SU,567.5999999999999,544.95
+percentile_95,N Middlesex SU,354.3,324.29999999999995
+percentile_95,Newham General SU,192.84999999999997,174.0
+percentile_95,Northwick Park SU,402.4,476.4
+percentile_95,Princess Royal SU,304.84999999999997,365.75
+percentile_95,Queens Romford SU,443.65,526.75
+percentile_95,Royal Free SU,312.65,287.1
+percentile_95,Royal London SU,126.55,111.55
+percentile_95,St George’s SU,169.55,243.55
+percentile_95,St Helier SU,223.2,188.0
+percentile_95,St Thomas SU,244.10000000000002,223.55
+percentile_95,University College SU,195.0,263.84999999999997
+percentile_95,W Middlesex SU,222.55,203.2
+percentile_95,Whipps Cross SU,223.2,201.64999999999998

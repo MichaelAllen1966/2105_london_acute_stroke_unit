@@ -195,6 +195,9 @@ class Model(object):
                             self.data.unit_region[unit] != patient.patient_region):
                             # Skip remainder of loop if unit not in patient region
                             continue
+                        # Check unit is allowed for pool use
+                        if self.data.allow_pool_use[unit] == 0:
+                            continue
                         # Calculate number of spare beds
                         capacity = self.data.units_capacity[unit]
                         occupied_beds = self.unit_occupancy[unit]
