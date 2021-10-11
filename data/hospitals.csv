@@ -1,23 +1,23 @@
-Unit,Postcode,Use,los_mean,los_mean_actual,Capacity,av_base_occupancy
-Barnet General SU,EN53DJ,1,28,27.3,24,11.82
-Charing Cross SU,W68RF,1,28,40,51,25.56
-Chelsea & Wminster SU,SW109NH,1,28,29.5,28,14.27
-Croydon SU,CR77YE,1,28,39.6,40,20.18
-Hillingdon SU,UB83NN,1,28,33.7,43,21.47
-Homerton SU,E96SR,1,28,54.7,27,13.55
-King’s College SU,SE59RS,1,28,35.1,30,15.23
-Kingston SU,KT27QB,1,28,30.4,28,14.04
-Lewisham SU,SE136LH,1,28,35.7,81,41.03
-N Middlesex SU,N181QX,1,28,30,49,24.99
-Newham General SU,E138SL,1,28,21.3,27,13.52
-Northwick Park SU,HA13UJ,1,28,21.2,56,28.45
-Princess Royal SU,BR68ND,1,28,25.6,42,21.34
-Queens Romford SU,RM70AG,1,28,19.4,62,31.58
-Royal Free SU,NW32QG,1,28,19.2,43,21.52
-Royal London SU,E11FR,1,28,20.6,18,8.99
-St George’s SU,SW170QT,1,28,38.9,25,12.56
-St Helier SU,SM51AA,1,28,42.1,30,15.23
-St Thomas SU,SE17EH,1,28,37,35,17.45
-University College SU,NW12BU,1,28,32.8,26,13.06
-W Middlesex SU,TW76AF,1,28,31.9,31,15.33
-Whipps Cross SU,E111NR,1,28,21.5,32,16.13
+Unit,Postcode,Use,los_mean,los_mean_actual,Capacity,av_base_occupancy,region_name,region,planned_beds
+Barnet General SU,EN53DJ,1,28,27.3,24,11.82,NC,1,24
+Charing Cross SU,W68RF,1,28,40,51,25.56,NW,3,22
+Chelsea & Wminster SU,SW109NH,1,28,29.5,28,14.27,NW,3,20
+Croydon SU,CR77YE,1,28,39.6,40,20.18,SW,5,26
+Hillingdon SU,UB83NN,1,28,33.7,43,21.47,NW,3,20
+Homerton SU,E96SR,1,28,54.7,27,13.55,NE,2,16
+King’s College SU,SE59RS,1,28,35.1,30,15.23,SE,4,16
+Kingston SU,KT27QB,1,28,30.4,28,14.04,SW,5,20
+Lewisham SU,SE136LH,1,28,35.7,81,41.03,SE,4,50
+N Middlesex SU,N181QX,1,28,30,49,24.99,NC,1,20
+Newham General SU,E138SL,1,28,21.3,27,13.52,NE,2,13
+Northwick Park SU,HA13UJ,1,28,21.2,56,28.45,NW,3,34
+Princess Royal SU,BR68ND,1,28,25.6,42,21.34,SE,4,26
+Queens Romford SU,RM70AG,1,28,19.4,62,31.58,NE,2,30
+Royal Free SU,NW32QG,1,28,19.2,43,21.52,NC,1,18
+Royal London SU,E11FR,1,28,20.6,18,8.99,NE,2,14
+St George’s SU,SW170QT,1,28,38.9,25,12.56,SW,5,16
+St Helier SU,SM51AA,1,28,42.1,30,15.23,SW,5,24
+St Thomas SU,SE17EH,1,28,37,35,17.45,SE,4,20
+University College SU,NW12BU,1,28,32.8,26,13.06,NC,1,17
+W Middlesex SU,TW76AF,1,28,31.9,31,15.33,NW,3,22
+Whipps Cross SU,E111NR,1,28,21.5,32,16.13,NE,2,19
