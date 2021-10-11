@@ -129,6 +129,8 @@ class Model(object):
                 ['Preferred_unit_name'])
             patient_dict['pref_unit_index'] = (
                 self.data.units.loc[patient_dict['pref_unit_name']]['Index'])
+            patient_dict['patient_region'] = (
+                self.data.units.loc[patient_dict['pref_unit_name']]['region'])
             patient = Patient(patient_dict, self.params)
             self.patients.append(patient)
 
@@ -188,6 +190,12 @@ class Model(object):
                     choice_order = list(
                         self.data.units_index_by_time.loc[patient.lsoa])
                     for unit in choice_order:
+                        # Check if limited to regions and unit in region
+                        if (self.params.restrict_non_preferred_to_regions and 
+                            self.data.unit_region[unit] != patient.patient_region):
+                            # Skip remainder of loop if unit not in patient region
+                            continue
+                        # Calculate number of spare beds
                         capacity = self.data.units_capacity[unit]
                         occupied_beds = self.unit_occupancy[unit]
                         spare_beds = capacity - occupied_beds

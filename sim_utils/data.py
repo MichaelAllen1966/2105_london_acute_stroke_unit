@@ -60,6 +60,7 @@ class Data(object):
         self.units_name =  list(self.units.index)
         self.units_postcode = list(self.units['Postcode'])
         self.units_capacity = list(self.units['Capacity'])
+        self.unit_region = list(self.units['region'])
 
         # Get preferred units by travel time from LSOAs to unit
         self.units_by_time = self.order_by_time(self.time_matrix)

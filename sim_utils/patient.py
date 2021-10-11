@@ -27,6 +27,7 @@ class Patient(object):
         self.pref_unit_postcode = patient_dict['pref_unit_postcode']
         self.pref_unit_name = patient_dict['pref_unit_name']
         self.pref_unit_index = patient_dict['pref_unit_index']
+        self.patient_region = patient_dict['patient_region']
 
         # Set default values
         self.assigned_asu_index = None

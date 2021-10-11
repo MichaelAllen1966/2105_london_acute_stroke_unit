@@ -32,10 +32,10 @@ class Scenario(object):
         self.esd_use = 0.
         self.esd_asu_los_reduction = 7.0
         self.los_cv = 0.3
-        self.allow_non_preferred_asu = False
+        self.allow_non_preferred_asu = True
+        self.restrict_non_preferred_to_regions = True
 
         # Overwrite default values
-
         for dictionary in initial_data:
             for key in dictionary:
                 setattr(self, key, dictionary[key])
