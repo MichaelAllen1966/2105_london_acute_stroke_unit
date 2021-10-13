@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+from pandas.core.reshape.merge import merge
 
 
 class Data(object):
@@ -28,13 +29,17 @@ class Data(object):
     
     """
 
-    def __init__(self):
+    def __init__(self, params):
         """Data constructor method"""
+
+        # Store model paramters
+        self.params = params
 
         # Load data
         self.admissions = pd.read_csv('data/admissions.csv', index_col='LSOA')
         self.pref_unit = pd.read_csv('data/pref_unit.csv', index_col='LSOA')
         self.units = pd.read_csv('data/hospitals.csv', index_col='Unit')
+        self.units['Unit_name'] = list(self.units.index)
         self.time_matrix = pd.read_csv('data/time.csv', index_col='LSOA')
         self.distance_matrix = pd.read_csv('data/distance.csv',
                                            index_col='LSOA')
@@ -73,6 +78,14 @@ class Data(object):
         self.interarrival_interval = 365 / self.total_admissions
         self.admission_probs = \
             np.array(self.admissions['admissions']) / self.total_admissions
+        
+        # Overwrite preferred unit if required
+        if self.params.overwrite_preferred_unit_with_closest:
+            unit_postcode = self.units_by_time[0]
+            self.pref_unit['Preferred_unit_postcode'] = unit_postcode.values
+            _ = pd.DataFrame(unit_postcode).merge(
+                self.units, left_on=0, right_on='Postcode')
+            self.pref_unit['Preferred_unit_name'] = _['Unit_name'].values
 
         return
 

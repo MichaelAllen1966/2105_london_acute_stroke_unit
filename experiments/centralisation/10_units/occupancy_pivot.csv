@@ -1,0 +1,51 @@
+,,constrained_beds
+min,Charing Cross SU,27.0
+min,Croydon SU,12.0
+min,King’s College SU,18.0
+min,Lewisham SU,36.0
+min,N Middlesex SU,47.0
+min,Newham General SU,34.0
+min,Northwick Park SU,42.0
+min,Queens Romford SU,20.0
+min,Royal Free SU,23.0
+min,St Helier SU,24.0
+mean,Charing Cross SU,38.63333333333333
+mean,Croydon SU,23.233333333333334
+mean,King’s College SU,26.933333333333334
+mean,Lewisham SU,53.06666666666667
+mean,N Middlesex SU,60.333333333333336
+mean,Newham General SU,44.56666666666667
+mean,Northwick Park SU,56.766666666666666
+mean,Queens Romford SU,27.766666666666666
+mean,Royal Free SU,48.333333333333336
+mean,St Helier SU,36.56666666666667
+median,Charing Cross SU,38.0
+median,Croydon SU,25.0
+median,King’s College SU,27.5
+median,Lewisham SU,53.0
+median,N Middlesex SU,61.5
+median,Newham General SU,45.0
+median,Northwick Park SU,57.5
+median,Queens Romford SU,29.0
+median,Royal Free SU,51.5
+median,St Helier SU,37.5
+max,Charing Cross SU,47.0
+max,Croydon SU,29.0
+max,King’s College SU,35.0
+max,Lewisham SU,65.0
+max,N Middlesex SU,70.0
+max,Newham General SU,54.0
+max,Northwick Park SU,66.0
+max,Queens Romford SU,32.0
+max,Royal Free SU,56.0
+max,St Helier SU,44.0
+percentile_95,Charing Cross SU,47.0
+percentile_95,Croydon SU,29.0
+percentile_95,King’s College SU,33.0
+percentile_95,Lewisham SU,65.0
+percentile_95,N Middlesex SU,70.0
+percentile_95,Newham General SU,54.0
+percentile_95,Northwick Park SU,66.0
+percentile_95,Queens Romford SU,32.0
+percentile_95,Royal Free SU,56.0
+percentile_95,St Helier SU,44.0

@@ -1,0 +1,76 @@
+,,constrained_beds
+min,Charing Cross SU,289.0
+min,Croydon SU,236.0
+min,Kingston SU,178.0
+min,King’s College SU,258.0
+min,Lewisham SU,530.0
+min,N Middlesex SU,495.0
+min,Newham General SU,342.0
+min,Northwick Park SU,585.0
+min,Princess Royal SU,201.0
+min,Queens Romford SU,292.0
+min,Royal Free SU,323.0
+min,St Helier SU,255.0
+min,University College SU,319.0
+min,W Middlesex SU,255.0
+min,Whipps Cross SU,267.0
+mean,Charing Cross SU,329.03333333333336
+mean,Croydon SU,283.26666666666665
+mean,Kingston SU,212.13333333333333
+mean,King’s College SU,297.0
+mean,Lewisham SU,575.6
+mean,N Middlesex SU,551.1666666666666
+mean,Newham General SU,384.6
+mean,Northwick Park SU,634.6
+mean,Princess Royal SU,231.7
+mean,Queens Romford SU,320.93333333333334
+mean,Royal Free SU,355.6333333333333
+mean,St Helier SU,295.9
+mean,University College SU,357.26666666666665
+mean,W Middlesex SU,285.7
+mean,Whipps Cross SU,322.2
+median,Charing Cross SU,326.0
+median,Croydon SU,286.5
+median,Kingston SU,213.0
+median,King’s College SU,292.0
+median,Lewisham SU,574.0
+median,N Middlesex SU,552.0
+median,Newham General SU,382.0
+median,Northwick Park SU,635.5
+median,Princess Royal SU,231.0
+median,Queens Romford SU,322.0
+median,Royal Free SU,356.5
+median,St Helier SU,291.0
+median,University College SU,353.0
+median,W Middlesex SU,288.0
+median,Whipps Cross SU,324.5
+max,Charing Cross SU,382.0
+max,Croydon SU,331.0
+max,Kingston SU,244.0
+max,King’s College SU,339.0
+max,Lewisham SU,613.0
+max,N Middlesex SU,621.0
+max,Newham General SU,436.0
+max,Northwick Park SU,682.0
+max,Princess Royal SU,260.0
+max,Queens Romford SU,366.0
+max,Royal Free SU,391.0
+max,St Helier SU,343.0
+max,University College SU,407.0
+max,W Middlesex SU,324.0
+max,Whipps Cross SU,370.0
+percentile_95,Charing Cross SU,364.1
+percentile_95,Croydon SU,323.25
+percentile_95,Kingston SU,239.29999999999998
+percentile_95,King’s College SU,335.75
+percentile_95,Lewisham SU,606.4
+percentile_95,N Middlesex SU,588.75
+percentile_95,Newham General SU,421.75
+percentile_95,Northwick Park SU,669.8499999999999
+percentile_95,Princess Royal SU,250.64999999999998
+percentile_95,Queens Romford SU,334.0
+percentile_95,Royal Free SU,383.65
+percentile_95,St Helier SU,328.0
+percentile_95,University College SU,397.2
+percentile_95,W Middlesex SU,320.2
+percentile_95,Whipps Cross SU,363.1

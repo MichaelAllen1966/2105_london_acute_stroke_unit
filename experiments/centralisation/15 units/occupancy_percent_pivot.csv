@@ -1,0 +1,76 @@
+,,constrained_beds
+min,Charing Cross SU,34.48275862068966
+min,Croydon SU,29.629629629629626
+min,Kingston SU,15.0
+min,King’s College SU,28.57142857142857
+min,Lewisham SU,42.0
+min,N Middlesex SU,41.17647058823529
+min,Newham General SU,38.23529411764706
+min,Northwick Park SU,47.368421052631575
+min,Princess Royal SU,28.57142857142857
+min,Queens Romford SU,39.285714285714285
+min,Royal Free SU,36.11111111111111
+min,St Helier SU,28.57142857142857
+min,University College SU,29.03225806451613
+min,W Middlesex SU,30.76923076923077
+min,Whipps Cross SU,25.0
+mean,Charing Cross SU,86.9337112265812
+mean,Croydon SU,80.18704549297394
+mean,Kingston SU,80.76894977168949
+mean,King’s College SU,81.44487932159056
+mean,Lewisham SU,87.96858447488584
+mean,N Middlesex SU,83.19401916017456
+mean,Newham General SU,86.69863013698411
+mean,Northwick Park SU,85.34807337979618
+mean,Princess Royal SU,84.39921722113799
+mean,Queens Romford SU,87.78636660143387
+mean,Royal Free SU,75.73084728564235
+mean,St Helier SU,81.42889758643133
+mean,University College SU,88.31580497864172
+mean,W Middlesex SU,84.56761503337076
+mean,Whipps Cross SU,88.17710371819908
+median,Charing Cross SU,89.65517241379311
+median,Croydon SU,81.48148148148148
+median,Kingston SU,85.0
+median,King’s College SU,82.14285714285714
+median,Lewisham SU,90.0
+median,N Middlesex SU,84.31372549019608
+median,Newham General SU,88.23529411764706
+median,Northwick Park SU,85.96491228070175
+median,Princess Royal SU,85.71428571428571
+median,Queens Romford SU,92.85714285714286
+median,Royal Free SU,75.0
+median,St Helier SU,82.14285714285714
+median,University College SU,93.54838709677419
+median,W Middlesex SU,88.46153846153845
+median,Whipps Cross SU,96.42857142857143
+max,Charing Cross SU,100.0
+max,Croydon SU,100.0
+max,Kingston SU,100.0
+max,King’s College SU,100.0
+max,Lewisham SU,100.0
+max,N Middlesex SU,100.0
+max,Newham General SU,100.0
+max,Northwick Park SU,100.0
+max,Princess Royal SU,100.0
+max,Queens Romford SU,100.0
+max,Royal Free SU,100.0
+max,St Helier SU,100.0
+max,University College SU,100.0
+max,W Middlesex SU,100.0
+max,Whipps Cross SU,100.0
+percentile_95,Charing Cross SU,100.0
+percentile_95,Croydon SU,100.0
+percentile_95,Kingston SU,100.0
+percentile_95,King’s College SU,100.0
+percentile_95,Lewisham SU,100.0
+percentile_95,N Middlesex SU,100.0
+percentile_95,Newham General SU,100.0
+percentile_95,Northwick Park SU,100.0
+percentile_95,Princess Royal SU,100.0
+percentile_95,Queens Romford SU,100.0
+percentile_95,Royal Free SU,97.22222222222221
+percentile_95,St Helier SU,100.0
+percentile_95,University College SU,100.0
+percentile_95,W Middlesex SU,100.0
+percentile_95,Whipps Cross SU,100.0

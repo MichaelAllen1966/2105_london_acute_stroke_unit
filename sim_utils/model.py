@@ -20,7 +20,7 @@ class Model(object):
         """
         self.env = simpy.Environment()
         self.params = scenario
-        self.data = Data()
+        self.data = Data(self.params)
         self.audit = Audit()
         self.patients = []
 

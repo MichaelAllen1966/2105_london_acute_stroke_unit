@@ -1,0 +1,23 @@
+Unit,Postcode,Use,los_mean,los_mean_actual,Capacity,av_base_occupancy,region_name,region,planned_beds,HASU,allow_pool_use,planned_85_percent,,,x1,x2,x3
+Barnet General SU,EN53DJ,1,28,27.3,12,11.82,NC,1,24,0,0,14,,,Barnet General SU,9.66666666666667,12
+Charing Cross SU,W68RF,1,28,40,15,25.56,NW,3,22,1,0,31,,,Charing Cross SU,12.4333333333333,15
+Chelsea & Wminster SU,SW109NH,1,28,29.5,15,14.27,NW,3,20,0,0,17,,,Chelsea & Wminster SU,12.6,15
+Croydon SU,CR77YE,1,28,39.6,28,20.18,SW,5,26,0,0,24,,,Croydon SU,23.6,28
+Hillingdon SU,UB83NN,1,28,33.7,17,21.47,NW,3,20,0,0,26,,,Hillingdon SU,14.4,17
+Homerton SU,E96SR,1,28,54.7,14,13.55,NE,2,16,0,0,16,,,Homerton SU,11.5,14
+King’s College SU,SE59RS,1,28,35.1,14,15.23,SE,4,16,1,0,18,,,Kingston SU,16.6666666666667,20
+Kingston SU,KT27QB,1,28,30.4,20,14.04,SW,5,20,0,0,17,,,King’s College SU,11.2333333333333,14
+Lewisham SU,SE136LH,1,28,35.7,48,41.03,SE,4,50,0,0,49,,,Lewisham SU,40.5333333333333,48
+N Middlesex SU,N181QX,1,28,30,39,24.99,NC,1,20,0,0,30,,,N Middlesex SU,32.5333333333333,39
+Newham General SU,E138SL,1,28,21.3,24,13.52,NE,2,13,0,0,16,,,Newham General SU,19.6333333333333,24
+Northwick Park SU,HA13UJ,1,28,21.2,42,28.45,NW,3,34,1,1,34,,,Northwick Park SU,34.9333333333333,42
+Princess Royal SU,BR68ND,1,28,25.6,22,21.34,SE,4,26,1,1,26,,,Princess Royal SU,18.1,22
+Queens Romford SU,RM70AG,1,28,19.4,30,31.58,NE,2,30,1,1,38,,,Queens Romford SU,25.1333333333333,30
+Royal Free SU,NW32QG,1,28,19.2,34,21.52,NC,1,18,0,0,26,,,Royal Free SU,28.1666666666667,34
+Royal London SU,E11FR,1,28,20.6,18,8.99,NE,2,14,1,0,11,,,Royal London SU,14.6,18
+St George’s SU,SW170QT,1,28,38.9,15,12.56,SW,5,16,1,1,15,,,St George’s SU,12,15
+St Helier SU,SM51AA,1,28,42.1,20,15.23,SW,5,24,0,0,18,,,St Helier SU,16.6333333333333,20
+St Thomas SU,SE17EH,1,28,37,11,17.45,SE,4,20,0,0,21,,,St Thomas SU,9.1,11
+University College SU,NW12BU,1,28,32.8,25,13.06,NC,1,17,1,1,16,,,University College SU,20.7666666666667,25
+W Middlesex SU,TW76AF,1,28,31.9,19,15.33,NW,3,22,0,0,19,,,W Middlesex SU,15.9333333333333,19
+Whipps Cross SU,E111NR,1,28,21.5,22,16.13,NE,2,19,0,0,19,,,Whipps Cross SU,18.4666666666667,22
