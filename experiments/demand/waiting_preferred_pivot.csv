@@ -1,0 +1,111 @@
+,,demand 0.75,demand 0.80,demand 0.85,demand 0.90,demand 0.95,demand 1.0
+min,Barnet General SU,0.0,0.0,0.0,0.0,0.0,0.0
+min,Charing Cross SU,0.0,0.0,0.0,0.0,0.0,0.0
+min,Chelsea & Wminster SU,0.0,0.0,0.0,0.0,0.0,0.0
+min,Croydon SU,0.0,0.0,0.0,0.0,0.0,0.0
+min,Hillingdon SU,0.0,0.0,0.0,0.0,0.0,0.0
+min,Homerton SU,0.0,0.0,0.0,0.0,0.0,0.0
+min,Kingston SU,0.0,0.0,0.0,0.0,0.0,0.0
+min,King’s College SU,0.0,0.0,0.0,0.0,0.0,0.0
+min,Lewisham SU,0.0,0.0,0.0,0.0,0.0,0.0
+min,N Middlesex SU,0.0,0.0,0.0,0.0,0.0,0.0
+min,Newham General SU,0.0,0.0,0.0,0.0,0.0,0.0
+min,Northwick Park SU,0.0,0.0,0.0,0.0,0.0,0.0
+min,Princess Royal SU,0.0,0.0,0.0,0.0,0.0,0.0
+min,Queens Romford SU,0.0,0.0,0.0,0.0,0.0,0.0
+min,Royal Free SU,0.0,0.0,0.0,0.0,0.0,0.0
+min,Royal London SU,0.0,0.0,0.0,0.0,0.0,0.0
+min,St George’s SU,0.0,0.0,0.0,0.0,0.0,0.0
+min,St Helier SU,0.0,0.0,0.0,0.0,0.0,0.0
+min,St Thomas SU,0.0,0.0,0.0,0.0,0.0,0.0
+min,University College SU,0.0,0.0,0.0,0.0,0.0,0.0
+min,W Middlesex SU,0.0,0.0,0.0,0.0,0.0,0.0
+min,Whipps Cross SU,0.0,0.0,0.0,0.0,0.0,0.0
+mean,Barnet General SU,0.06666666666666667,0.16666666666666666,0.26666666666666666,1.1,1.5666666666666667,2.466666666666667
+mean,Charing Cross SU,0.0,0.0,0.0,0.0,0.3,0.36666666666666664
+mean,Chelsea & Wminster SU,0.03333333333333333,0.3,0.26666666666666666,0.3333333333333333,0.43333333333333335,0.7
+mean,Croydon SU,0.0,0.0,0.0,0.2,0.43333333333333335,0.9333333333333333
+mean,Hillingdon SU,0.0,0.0,0.2,0.3,0.16666666666666666,1.1
+mean,Homerton SU,0.0,0.2,0.16666666666666666,0.1,0.5666666666666667,0.43333333333333335
+mean,Kingston SU,0.4666666666666667,0.0,0.4666666666666667,0.7333333333333333,0.6,2.1666666666666665
+mean,King’s College SU,0.0,0.03333333333333333,0.0,0.03333333333333333,0.13333333333333333,0.06666666666666667
+mean,Lewisham SU,0.0,0.0,0.1,0.03333333333333333,0.2,0.1
+mean,N Middlesex SU,0.03333333333333333,0.0,0.06666666666666667,0.0,0.03333333333333333,0.23333333333333334
+mean,Newham General SU,0.0,0.06666666666666667,0.3333333333333333,0.7666666666666667,1.2,1.4333333333333333
+mean,Northwick Park SU,0.0,0.0,0.0,0.9333333333333333,0.4666666666666667,1.2666666666666666
+mean,Princess Royal SU,0.0,0.0,0.16666666666666666,0.3,0.5666666666666667,1.0
+mean,Queens Romford SU,0.0,0.0,0.0,0.1,0.1,0.5
+mean,Royal Free SU,0.0,0.0,0.1,0.03333333333333333,0.2,0.7333333333333333
+mean,Royal London SU,0.13333333333333333,0.0,0.06666666666666667,0.3,0.5333333333333333,0.6666666666666666
+mean,St George’s SU,0.16666666666666666,0.2,0.16666666666666666,0.4,0.5,1.1
+mean,St Helier SU,0.1,0.06666666666666667,0.03333333333333333,0.6333333333333333,0.5666666666666667,0.8333333333333334
+mean,St Thomas SU,0.0,0.23333333333333334,0.2,0.16666666666666666,0.5,0.6333333333333333
+mean,University College SU,0.03333333333333333,0.2,0.36666666666666664,0.13333333333333333,0.4,1.1
+mean,W Middlesex SU,0.0,0.1,0.13333333333333333,0.5666666666666667,0.4,0.8
+mean,Whipps Cross SU,0.03333333333333333,0.06666666666666667,0.3333333333333333,0.16666666666666666,0.5666666666666667,1.0
+median,Barnet General SU,0.0,0.0,0.0,0.0,0.0,2.0
+median,Charing Cross SU,0.0,0.0,0.0,0.0,0.0,0.0
+median,Chelsea & Wminster SU,0.0,0.0,0.0,0.0,0.0,0.0
+median,Croydon SU,0.0,0.0,0.0,0.0,0.0,0.0
+median,Hillingdon SU,0.0,0.0,0.0,0.0,0.0,0.0
+median,Homerton SU,0.0,0.0,0.0,0.0,0.0,0.0
+median,Kingston SU,0.0,0.0,0.0,0.0,0.0,0.0
+median,King’s College SU,0.0,0.0,0.0,0.0,0.0,0.0
+median,Lewisham SU,0.0,0.0,0.0,0.0,0.0,0.0
+median,N Middlesex SU,0.0,0.0,0.0,0.0,0.0,0.0
+median,Newham General SU,0.0,0.0,0.0,0.0,0.0,0.0
+median,Northwick Park SU,0.0,0.0,0.0,0.0,0.0,0.0
+median,Princess Royal SU,0.0,0.0,0.0,0.0,0.0,0.0
+median,Queens Romford SU,0.0,0.0,0.0,0.0,0.0,0.0
+median,Royal Free SU,0.0,0.0,0.0,0.0,0.0,0.0
+median,Royal London SU,0.0,0.0,0.0,0.0,0.0,0.0
+median,St George’s SU,0.0,0.0,0.0,0.0,0.0,0.0
+median,St Helier SU,0.0,0.0,0.0,0.0,0.0,0.0
+median,St Thomas SU,0.0,0.0,0.0,0.0,0.0,0.0
+median,University College SU,0.0,0.0,0.0,0.0,0.0,0.0
+median,W Middlesex SU,0.0,0.0,0.0,0.0,0.0,0.0
+median,Whipps Cross SU,0.0,0.0,0.0,0.0,0.0,0.0
+max,Barnet General SU,2.0,2.0,3.0,17.0,13.0,8.0
+max,Charing Cross SU,0.0,0.0,0.0,0.0,4.0,4.0
+max,Chelsea & Wminster SU,1.0,4.0,2.0,6.0,4.0,9.0
+max,Croydon SU,0.0,0.0,0.0,5.0,3.0,9.0
+max,Hillingdon SU,0.0,0.0,3.0,4.0,5.0,15.0
+max,Homerton SU,0.0,3.0,3.0,3.0,4.0,4.0
+max,Kingston SU,9.0,0.0,7.0,9.0,9.0,11.0
+max,King’s College SU,0.0,1.0,0.0,1.0,2.0,1.0
+max,Lewisham SU,0.0,0.0,3.0,1.0,4.0,3.0
+max,N Middlesex SU,1.0,0.0,2.0,0.0,1.0,4.0
+max,Newham General SU,0.0,1.0,4.0,11.0,21.0,12.0
+max,Northwick Park SU,0.0,0.0,0.0,9.0,6.0,18.0
+max,Princess Royal SU,0.0,0.0,5.0,5.0,6.0,17.0
+max,Queens Romford SU,0.0,0.0,0.0,3.0,3.0,7.0
+max,Royal Free SU,0.0,0.0,3.0,1.0,3.0,8.0
+max,Royal London SU,4.0,0.0,2.0,2.0,4.0,7.0
+max,St George’s SU,4.0,3.0,3.0,5.0,5.0,15.0
+max,St Helier SU,3.0,2.0,1.0,8.0,7.0,8.0
+max,St Thomas SU,0.0,4.0,5.0,3.0,12.0,5.0
+max,University College SU,1.0,3.0,6.0,4.0,5.0,14.0
+max,W Middlesex SU,0.0,2.0,3.0,6.0,5.0,6.0
+max,Whipps Cross SU,1.0,1.0,8.0,5.0,6.0,9.0
+percentile_95,Barnet General SU,0.0,2.0,2.0,6.0,7.0,7.0
+percentile_95,Charing Cross SU,0.0,0.0,0.0,0.0,2.0,4.0
+percentile_95,Chelsea & Wminster SU,0.0,3.0,2.0,2.0,4.0,6.0
+percentile_95,Croydon SU,0.0,0.0,0.0,1.0,2.0,6.0
+percentile_95,Hillingdon SU,0.0,0.0,2.0,3.0,0.0,12.0
+percentile_95,Homerton SU,0.0,3.0,2.0,0.0,4.0,4.0
+percentile_95,Kingston SU,3.0,0.0,2.0,5.0,3.0,11.0
+percentile_95,King’s College SU,0.0,0.0,0.0,0.0,1.0,1.0
+percentile_95,Lewisham SU,0.0,0.0,0.0,0.0,2.0,0.0
+percentile_95,N Middlesex SU,0.0,0.0,0.0,0.0,0.0,3.0
+percentile_95,Newham General SU,0.0,1.0,2.0,4.0,4.0,9.0
+percentile_95,Northwick Park SU,0.0,0.0,0.0,7.0,3.0,8.0
+percentile_95,Princess Royal SU,0.0,0.0,0.0,3.0,4.0,4.0
+percentile_95,Queens Romford SU,0.0,0.0,0.0,0.0,0.0,4.0
+percentile_95,Royal Free SU,0.0,0.0,0.0,0.0,2.0,5.0
+percentile_95,Royal London SU,0.0,0.0,0.0,2.0,4.0,6.0
+percentile_95,St George’s SU,1.0,3.0,2.0,4.0,4.0,5.0
+percentile_95,St Helier SU,0.0,0.0,0.0,3.0,4.0,6.0
+percentile_95,St Thomas SU,0.0,3.0,1.0,2.0,2.0,4.0
+percentile_95,University College SU,0.0,2.0,4.0,0.0,4.0,6.0
+percentile_95,W Middlesex SU,0.0,1.0,1.0,3.0,2.0,5.0
+percentile_95,Whipps Cross SU,0.0,1.0,2.0,0.0,4.0,5.0
